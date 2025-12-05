@@ -1,5 +1,14 @@
 Цели - Набирать людей в НРИ (ТТРПГ) кампейны, дать информацию людям о проектах
 
-Исп. теги- doctype, html, head, meta, title, link, body, a, table, caption, thead, th, tbody,
-td, div, p, b, h1, i, img
+Исп. теги-
+doctype, html, head, body, - структура базова
+meta- метаданные
+title- название страницы в браузере
+link-соединение
+a-ссылка
+table, caption, thead, th, tbody, td - таблицы
+div- блоки отдельные
+ p, b, h1, i- текст заголовки форматирование
+img-картинка
+
 
