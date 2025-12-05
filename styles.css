@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Chekhovskoy';
+    src: url(assets/Chekhovskoy.ttf);
+}
+
+body {
+    background-color: black;
+    font-family: 'Chekhovskoy';
+}
+
+h1, p, th, td, caption {
+    color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(12, auto);
+    gap: 10px;
+    background-color: rgb(44, 33, 55);
+    border: 20px solid rgb(32, 17, 41);
+}
+
+
+.title {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    border: 5px solid black;
+    border: 20px solid rgb(43, 33, 54);
+}
+
+
+.icon1 {
+    grid-column: 1 / 5;
+    grid-row: 2 / 5;
+    font-size: 40px;
+    
+}
+
+.icon1 img {
+    height: 344px;
+    width: 612px;
+}
+
+
+.text1 {
+    grid-column: 5 / 9;
+    grid-row: 2 / 4;
+    
+}
+
+
+.icon2 {
+    grid-column: 1 / 5;
+    grid-row: 5 / 9;
+    font-size: 40px;
+}
+
+.icon2 img {
+    height: 344px;
+    width: 612px;
+}
+
+
+.text2 {
+    grid-column: 5 / 9;
+    grid-row: 5 / 9;
+    
+}
+
+
+.icon3 {
+    grid-column: 1 / 5;
+    grid-row: 9 / 13;
+    font-size: 40px;
+    
+}
+
+.icon3 img {
+    height: 344px;
+    width: 612px;
+}
+
+
+.text3 {
+    grid-column: 5 / 9;
+    grid-row: 9 / 13;
+    
+}
